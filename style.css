@@ -1,0 +1,116 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    text-align: justify;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    font-weight: 700;
+    border: 5px;
+    border-radius: 20px;
+    padding: 10px 40px;
+}
+
+.skip {
+    color: orange;
+}
+
+.width {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 50%;
+}
+
+.width img {
+    width: 100%;
+}
+
+.flexible-container {
+    display: flex;
+
+
+}
+
+.second-sec {
+    text-align: left;
+    background-image: url(eat-healthy-main/7.png);
+}
+
+.head {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.id {
+    text-align: center;
+}
+
+.flash {
+    display: block;
+    width: 80px;
+
+}
+
+.fifi {
+    font-size: 40px;
+}
+
+.experience-item {
+    width: 50%;
+    box-shadow: 5px 5px 40px gray;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 10px 10px;
+}
+
+.item {
+    width: 95%;
+}
+
+.blog {
+    display: flex;
+    border: 5px;
+    background-color: gray;
+    box-shadow: 40px;
+    border-radius: 10px;
+    margin: 10px 20px;
+
+}
+
+.mija {
+    text-align: center;
+
+}
+
+.it {
+
+    color: orange;
+}
+
+.if {
+
+    color: darkslategray;
+}
+
+footer {
+    text-align: center;
+}
+
+.fotter {
+    background-color: black;
+    color: gray;
+    padding: 40px 50px;
+    border-radius: 10px;
+}
