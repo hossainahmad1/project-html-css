@@ -1,0 +1,25 @@
+.home img {
+    border-radius: 20px;
+}
+
+.home-container {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+
+}
+
+.home-info {
+    margin-left: 20px;
+    margin-top: 80px;
+
+}
+
+.data-show-header {
+    text-align: center;
+}
+
+.data-show {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}

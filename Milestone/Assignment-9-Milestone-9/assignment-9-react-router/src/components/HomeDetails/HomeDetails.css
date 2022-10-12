@@ -1,0 +1,20 @@
+.show-data {
+    margin: 10px;
+    border: 1px solid peru;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+.show-data img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.show-data-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
