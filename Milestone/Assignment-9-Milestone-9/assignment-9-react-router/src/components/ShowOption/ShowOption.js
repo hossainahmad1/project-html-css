@@ -5,7 +5,7 @@ const ShowOption = ({ opstionData, opstionClick }) => {
     // const { } = opstionData
     return (
         <div>
-            <p onClick={() =>opstionClick( opstionData)} className='text-lg hover:bg-slate-700 p-3 hover:text-white'>{opstionData}</p>
+            <p onClick={() =>opstionClick( opstionData)} className='  text-lg hover:bg-slate-700 p-3 hover:text-white'>{opstionData}</p>
         </div>
     );
 };

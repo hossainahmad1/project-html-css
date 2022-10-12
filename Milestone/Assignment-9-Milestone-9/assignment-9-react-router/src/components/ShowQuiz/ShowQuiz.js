@@ -1,18 +1,20 @@
 import React from 'react';
 import ShowOption from '../ShowOption/ShowOption';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ShowQuiz = ({ data }) => {
     const opstionDatas = data.options
     const { question, correctAnswer } = data
 
-
-
     const opstionClick = (opstionData) => {
         if (correctAnswer === opstionData) {
-            alert('correct')
+            // alert('correct')
+            toast.success('Correct Answer')
         }
         else {
-            alert('wrong')
+            // alert('wrong')
+            toast.error('Wrong Answer')
         }
     }
     return (
